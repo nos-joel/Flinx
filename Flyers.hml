@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css.css">
+
+
+
+    </head>
+    <body>
+    <div class="header" id="header" onclick="location.replace('index.html');">
+       <!--<div id="snav" class="snav"><span class="glyphicon glyphicon-list"></span></div> -->
+        Flinx
+    </div>
+    <div id="menu">
+        <ul class="ulmenu">
+        <li id="scan"><a>Scan</a></li>
+        <li id="flyers"><a>Flyers</a></li>
+        <li id="help"><a>About</a></li>
+        <li id="something"><a>FAQ</a></li>
+        </ul>
+    </div>
+        <h1 style="text-align:center;">your Flyers</h1>
+        <div style="text-align:center;">
+                <img style="width: 200px; margin:0; padding: 0;" src="http://previews.123rf.com/images/hunthomas/hunthomas1207/hunthomas120700092/14428923-Summer-Beach-Party-Flyer-Template--Stock-Vector.jpg">
+        </div><script src="main.js"></script>
+        <script>
+        
+$(document).ready(function(){
+    
+$("#scan").click(function(){
+   $("#scancontent").show();
+    $("#logobottom").hide();
+    $("#splash").hide();
+});  
+});
+        </script>
+            </body>
+</html>
