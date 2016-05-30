@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" type="text/css" href="css.css">
 
-        <script src="main.js"></script>
+     
 
     </head>
     <body>
@@ -21,7 +21,7 @@
     <div id="menu">
         <ul class="ulmenu">
         <li id="scan"><a>Scan</a></li>
-        <li id="flyers"><a>Flyers</a></li>
+        <li onclick="location.replace('Flyers.html');" id="flyers"><a>Flyers</a></li>
         <li id="help"><a>About</a></li>
         <li id="something"><a>FAQ</a></li>
         </ul>
@@ -45,6 +45,9 @@
         <div id="photosubmit">SUBIT</div>
         <div id="demoflier">
             <p>you have sucessfully obtained your Flyer. That flyer will automatically be saved in our <b>Flyers</b> section.</p>
+            <h1>Register your email now.</h1>
+            <input type="email"><a href="index.html"><span class="glyphicon glyphicon-send"></span></a></input>
+            <p>Flyers will now be sent to this email</p>
         <img style="width: 200px; margin:0; padding: 0;" src="http://previews.123rf.com/images/hunthomas/hunthomas1207/hunthomas120700092/14428923-Summer-Beach-Party-Flyer-Template--Stock-Vector.jpg">
         </div>
     <div id=logobottom>
@@ -53,6 +56,7 @@
         <div id="row3"></div>
     
     </div>
+       <script src="main.js"></script>
     </body>
     
 </html>
