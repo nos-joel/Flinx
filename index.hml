@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css.css">
+
+        <script src="main.js"></script>
+
+    </head>
+    <body>
+    <div class="header" id="header" onclick="location.replace('index.html');">
+       <!--<div id="snav" class="snav"><span class="glyphicon glyphicon-list"></span></div> -->
+        Flinx
+    </div>
+    <div id="menu">
+        <ul class="ulmenu">
+        <li id="scan"><a>Scan</a></li>
+        <li id="flyers"><a>Flyers</a></li>
+        <li id="help"><a>About</a></li>
+        <li id="something"><a>FAQ</a></li>
+        </ul>
+    </div>
+        <br>
+        <div id="scancontent">
+        <p style="font-size: 20px; text-align: center; margin-top: 20px;">Want to scan a Flyer code?</p>
+            <input id="selectFile" type="file" accept="image/*;capture=camera">
+            <br>
+            <ul style="margin-left:5px;">
+            <li><i><span class="glyphicon glyphicon-menu-right"></span>Keep yout phone steady</i></li>
+                <li><i><span class="glyphicon glyphicon-menu-right"></span>Focus the QR Code</i></li>
+                <li><i><span class="glyphicon glyphicon-menu-right"></span>Take photo and then submit</i></li>
+            </ul>
+        </div>
+        <div id="splash"><p style="color: darkorange; text-align: center; font-size: 24px;"><u>Flinx</u></p>
+            <p style="text-align: center;"><span class="glyphicon glyphicon-th-list"></span></p>
+            <p style="font-size: 20px;margin: 0 5px; text-align: center;">A place to keep yout flyers organized and in one single place.</p>
+        
+        </div>
+        <div id="photosubmit">SUBIT</div>
+        <div id="demoflier">
+            <p>you have sucessfully obtained your Flyer. That flyer will automatically be saved in our <b>Flyers</b> section.</p>
+        <img style="width: 200px; margin:0; padding: 0;" src="http://previews.123rf.com/images/hunthomas/hunthomas1207/hunthomas120700092/14428923-Summer-Beach-Party-Flyer-Template--Stock-Vector.jpg">
+        </div>
+    <div id=logobottom>
+        <div id="row1"></div>
+        <div id="row2"></div>
+        <div id="row3"></div>
+    
+    </div>
+    </body>
+    
+</html>
