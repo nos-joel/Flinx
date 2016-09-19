@@ -20,7 +20,7 @@ $(document).ready(function(){
 		$("#scancontent").hide();
 		$("#photosubmit").hide();
 		$("#splash").hide();
-		$("#categ")".show();
+		$("#categ").show();
 		
 	});
 	
